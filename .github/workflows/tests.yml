@@ -36,7 +36,7 @@ jobs:
           restore-keys: ${{ matrix.os }}-rubygems-
 
       - name: Trust tap
-        run: brew trust --tap leonardwongly/apple-calendar
+        run: brew trust leonardwongly/apple-calendar
 
       - run: brew test-bot --only-cleanup-before
 
