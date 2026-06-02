@@ -1,8 +1,8 @@
 class AppleCalendarMcpServer < Formula
   desc "Local Apple Calendar MCP server and CLI"
   homepage "https://github.com/leonardwongly/AppleCalendarMCPServer"
-  head "https://github.com/leonardwongly/AppleCalendarMCPServer.git",
-       branch: "main"
+  url "https://github.com/leonardwongly/AppleCalendarMCPServer/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "4827546f855f8088f0ad7796b9aff1f3c7883f7307967cec0284bb67d75f789b"
 
   depends_on xcode: :build
 
@@ -41,7 +41,7 @@ class AppleCalendarMcpServer < Formula
         <key>CFBundlePackageType</key>
         <string>APPL</string>
         <key>CFBundleShortVersionString</key>
-        <string>0.1.0</string>
+        <string>1.0.1</string>
         <key>CFBundleVersion</key>
         <string>1</string>
         <key>LSMinimumSystemVersion</key>
