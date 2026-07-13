@@ -1,8 +1,8 @@
 class AppleCalendarMcpServer < Formula
   desc "Local Apple Calendar MCP server and CLI"
   homepage "https://github.com/leonardwongly/AppleCalendarMCPServer"
-  url "https://github.com/leonardwongly/AppleCalendarMCPServer/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "93e6fb3e554a68b89be84826c75c51b3035d0c0aa19cb83105834a18e55d175a"
+  url "https://github.com/leonardwongly/AppleCalendarMCPServer/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "d9fbaa7d7673255db522a08c352baa16a02cdbcccbbc51588bc5c7b1a2be77a2"
   license "Apache-2.0"
   head "https://github.com/leonardwongly/AppleCalendarMCPServer.git", branch: "main"
 
@@ -35,7 +35,7 @@ class AppleCalendarMcpServer < Formula
         <key>CFBundleExecutable</key>
         <string>AppleCalendarMCPServer</string>
         <key>CFBundleIdentifier</key>
-        <string>com.openai.codex.apple-calendar-mcp</string>
+        <string>com.leonardwongly.apple-calendar-mcp</string>
         <key>CFBundleInfoDictionaryVersion</key>
         <string>6.0</string>
         <key>CFBundleName</key>
@@ -43,9 +43,9 @@ class AppleCalendarMcpServer < Formula
         <key>CFBundlePackageType</key>
         <string>APPL</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.0.3</string>
+        <string>1.2.0</string>
         <key>CFBundleVersion</key>
-        <string>1</string>
+        <string>2</string>
         <key>LSMinimumSystemVersion</key>
         <string>13.0</string>
         <key>LSUIElement</key>
